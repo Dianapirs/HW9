@@ -1,9 +1,34 @@
-* {
-    margin: 0;
-    padding: 0;
+form {
+    background-color: #caa7da;
+    max-width: 500px;
+    align-items: center;
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
 }
-.wrapper {
-    max-width: 200px;
-    width: 100%;
-    display: none;
+input {
+    margin-bottom: 5px;
+}
+
+li {
+    list-style-type: none;
+}
+h1 {
+   color: darkmagenta;
+}
+button {
+    background-color: rgb(101, 126, 214);
+    cursor: pointer;
+    border-radius: 50px;
+}
+li {
+    color: darkmagenta;
+}
+
+li input[type="checkbox"]:checked ~ span {
+    text-decoration: line-through;
+}
+
+.btnDelete {
+    margin: 5px;
 }
